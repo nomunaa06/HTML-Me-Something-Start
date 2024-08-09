@@ -1,1 +1,88 @@
 /* Write your CSS here! */
+
+body {
+    margin: 30px;
+    color:  rgb(15, 51, 55);
+}
+h1{
+    font-size: 40px;
+}
+#ocupation{
+    background-color: rgb(15, 51, 55);
+    border-radius: 5cm;
+    color: white ;
+    margin-right: 600px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(234, 235, 235);
+    padding: 20px;
+}
+#mainheader{
+    background-color: rgb(226, 153, 43);
+    padding: 20px;
+}
+
+#mainHeading{
+    color: red;
+    font-family:cursive;
+}
+.h2 {
+    background-color: rgb(226, 153, 43);
+    border-radius: 5cm;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.row {
+    display: flex;
+  }
+  
+.column1 {
+    flex: 50%;
+    background-color: rgb(15, 51, 55);
+    
+}
+
+.column2 {
+    flex: 50%;   
+}
+
+.whitetext{
+    color:white;
+    padding-right: 8px;
+}
+
+#mainFooter {
+    background-color: rgb(226, 153, 43);
+    padding: 20px;
+}
+
+
+.headercolumn1 {
+    flex: 30%;
+    
+   
+}
+
+.headercolumn2 {
+    flex: 70%; 
+    padding-left: 40px;
+}
+#testP{
+    color: rgb(15, 51, 55);
+    font-family:cursive;
+    padding-right: 20px;
+}
+
+.funParagraph{
+    color: green;
+    padding-right: 8px;
+}
+
+img {
+    border-radius: 70%;
+    align-items: center;
+    padding-left: 10px;
+  }
